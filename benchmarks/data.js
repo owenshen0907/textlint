@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791499785591,
-  "repoUrl": "https://github.com/textlint/textlint",
+  "lastUpdate": 1792827850523,
+  "repoUrl": "https://github.com/owenshen0907/textlint",
   "entries": {
     "Benchmark": [
       {
@@ -122429,6 +122429,48 @@ window.BENCHMARK_DATA = {
             "name": "npm run bench:jtf-style",
             "value": 0.7425736034200001,
             "range": "± 0.01655710499999996",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "owen@evomap.ai",
+            "name": "owenshen0907",
+            "username": "owenshen0907"
+          },
+          "committer": {
+            "email": "owen@evomap.ai",
+            "name": "owenshen0907",
+            "username": "owenshen0907"
+          },
+          "distinct": true,
+          "id": "e26e7d7fa261bd1ea921790189f2b2292ef205e0",
+          "message": "fix(textlint): invalidate cache when enabling rules",
+          "timestamp": "2026-10-24T16:41:55+09:00",
+          "tree_id": "ed8e57e990e8d092b764427987ea782381ffeb1c",
+          "url": "https://github.com/owenshen0907/textlint/commit/e26e7d7fa261bd1ea921790189f2b2292ef205e0"
+        },
+        "date": 1792827838855,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 0.22735327176000003,
+            "range": "± 0.04323457699999997",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 1.9672914861600002,
+            "range": "± 0.05290273600000006",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.7613277415599999,
+            "range": "± 0.016290872000000012",
             "unit": "seconds"
           }
         ]
